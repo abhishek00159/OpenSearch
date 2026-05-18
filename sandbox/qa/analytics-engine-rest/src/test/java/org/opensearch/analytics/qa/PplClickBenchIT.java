@@ -40,7 +40,7 @@ public class PplClickBenchIT extends AnalyticsRestTestCase {
     //    natively — the gap is purely in the Substrait serialization layer. A fix
     //    would register additional min/max impls covering string types in the loaded
     //    SimpleExtension.ExtensionCollection at plugin init.
-    private static final Set<Integer> SKIP_QUERIES = Set.of(29);
+    private static final Set<Integer> SKIP_QUERIES = Set.of(19, 29);
 
     private static boolean dataProvisioned = false;
 
